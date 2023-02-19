@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,800,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/allerta-stencil');
+
+html {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+body {
+  background-color: rgb(223, 219, 219);
+  margin:0;
+  padding:0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+}
+hr{
+  border: 2px solid #1f56bd
+}
+
+div.inscription,div.connection{
+  
+  padding: 100px;
+  justify-content: center;
+  padding: auto;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,41,170,1) 100%);
+  border-radius: 7% 93% 21% 79% / 89% 27% 73% 11%; 
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+
+}
+
+button[type="submit"] {
+  background-color: #4286c5; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+div.login-form{
+  background-color:white;
+  border: 4px solid #1f56bd;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+header{
+  margin-bottom: 80px;
+}
+
+.requis{
+  border: none; 
+}
+
+.requis:focus{
+  outline: none;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  } 
+  
+   input:checked[type="checkbox"]
+   {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+  } 

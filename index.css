@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,800,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/allerta-stencil');
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgb(223, 219, 219);
+  display: flex; 
+  margin:0;
+  padding:0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+p {
+  display: flex;
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.slide {
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+
+
+.title {
+  width: 50%;
+  padding: 5%;
+
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  /*recouvrir la page sans cacher la barre de navigation*/
+}
+
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 6px 6px #000;
+}
+
+#title {
+  background-image: url("https://lorempixel.com/640/480/abstract/6/");
+}
+/* https://edition.cnn.com/2021/08/24/sport/gallery/paralympics-tokyo-best-photos/index.html*/
+
+
+
+
+/*Partie Promo*/
+
+.description{
+  display: flex;
+  flex-direction: column
+}
+
+
+  .vertical { 
+    border-left: 4px solid wheat; 
+    height: -50vw; 
+    display: inline-block;
+    margin-right: 10px;
+  } 
+
+  .a-la-une{
+    margin:5%;
+  }
+  
+  hr.blue{
+      border: 4px solid #1f56bd;
+      margin-bottom: 1rem;
+  }
+  .description p{
+    padding-left: 10px;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .description p strong{
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .description p + h4{
+    color: aliceblue;
+    font-size: 1.4rem;
+  }
+
+ 
+  .box-container-promo{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid rgb(103, 150, 236);
+  border-radius: 67% 33% 70% 30% / 24% 88% 12% 76%; 
+  }
+
+  .container-promo{   
+  width: 230px;
+  height: 400px;
+  margin: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+  border-radius: 5px;
+  }
+
+
+  .container-promo-image{
+    max-width: 100%;
+    max-height: 50%;
+    padding-bottom: 20px;
+  }
+
+  .container-promo-image img{
+
+    width:100%;
+    height: 88%;
+  }
+
+  .container-nom-promo a{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-nom-promo a p,.container-nom-promo strong{
+    margin: 5px;
+    font-size: 0.9rem;
+  }
+
+  .ancien-prix{
+    width: 100%;
+    margin-left: 100px;
+    font-size: 0.7rem;
+    text-decoration:line-through;
+    margin-bottom: 0px;
+  }
+
+  .prixpromo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+  .prixpromo h4{
+    margin:5px;
+    color: blue;
+  }
+
+  .pourcentage{
+    display: flex;
+    background:red;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    border:2px solid black; 
+    align-items: center;
+  }
+
+  .pourcentage p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+
+
+#slide2 {
+  padding-left: 0px;
+  padding-top: 0px;
+  margin: auto;
+  padding: auto;
+  
+}
+
+#slide2 .box img{
+  
+  width: 100vw;
+  height: auto; 
+}
+
+#slide2 .box {
+  margin-top: 70px;
+}
+
+
+/*Partie descirption*/
+
+#slide1{
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://dynaimage.cdn.cnn.com/cnn/w_1600/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210830183554-07-paralympics-0829-rugby.jpg");
+}
+
+#slide1 .title {
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title .evidence{
+  padding-left: 10px ;
+  color: red;
+}
+
+.description{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50, 41, 170, 0.322) 100%);
+  border-radius: 20px;
+}
+/*Partie catégorie*/
+
+.box-container-categorie{
+  border: 1px solid rgb(103, 150, 236);
+  border-radius: 67% 33% 70% 30% / 24% 88% 12% 76%; 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+.decorationGreen{
+  border-radius: 13% 87% 20% 80% / 66% 31% 69% 34% ;
+  border:1px solid rgb(114, 231, 114);
+}
+
+.decorationRed{
+  border-radius: 93% 7% 83% 17% / 6% 93% 7% 94%   ;
+  border:1px solid rgb(230, 115, 115);
+}
+
+.container-categorie{
+  border-radius: 8px;
+  margin: 20px;
+  padding: 0;
+  width: 500px;
+  height:400px;
+  padding-bottom: 20px;;
+}
+
+.container-image{
+  width:100%;
+  height: 88%;
+}
+.container-image{
+  overflow: hidden;
+}
+
+.container-image img{
+  max-width: 100%;
+  min-height: 100%;
+
+  /* Pour une animation "smooth" */
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.container-categorie img:hover{
+
+/*Zoom*/
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* IE 9 */
+-o-transform:scale(1.25); /* Opera */
+ transform:scale(1.25);
+ /*Définir l'ordre de parenté*/
+ z-index: -1;
+}
+
+.container-description{
+  width: 100%;
+  height: 12%; 
+  background-color: white; 
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.container-description p{
+  margin: 0;
+  
+}
+
+.title{
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.title h2{
+  color: #000;
+  margin: 0;
+}
+
+  .text {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    letter-spacing: 8px;
+    line-height: 36px;
+    position: relative;
+    top: -280px;
+  }
+  
+  @media (max-width: 1750px) {
+    #slide1 .title {
+      flex-direction: column; 
+    }
+  
+    .title h1{
+      margin-bottom: 0px;
+    }
+  }
